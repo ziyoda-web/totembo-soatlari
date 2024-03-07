@@ -1,0 +1,209 @@
+.h-text{
+    font-weight: 'Montserrat';
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 32px;
+}
+.h-links__a{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;  
+    color: rgba(50, 50, 50, 1);
+}
+hr{
+    border: 2px solid rgb(18, 17, 17);
+}
+.card{
+    transform: translateY(-120px);
+}
+.card::before{
+    content: '50%';
+    background: rgba(50, 50, 50, 1);
+    position: absolute;
+    padding: 11px 38px;
+    color: #fff;
+    transform: translateX(-30px);
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.soat-card__content{
+    width: 146px;
+    height: 174px;
+}
+.soat-card{
+    width: 526px;
+    box-shadow: 6px 6px 15px 0px rgba(132, 132, 132, 0.3);
+    border-radius: 10px;
+    height: 294px;
+    background: rgba(225, 225, 225, 1);
+}
+p{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+span{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+}
+h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.soatcard{
+    width: 746px;
+    height: 618px;
+    background: rgba(225, 225, 225, 1);
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px 0px rgba(132, 132, 132, 0.3);
+}
+.h-card .card::before{
+    content: '20%';
+}
+.h-card{
+    transform: translateY(-320px);
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 2.200000047683716px;
+}
+.lider-card{
+    width: 416px;
+    height: 485px;
+    box-shadow: 6px 6px 15px 0px rgba(132, 132, 132, 0.3);
+    background: rgba(225, 225, 225, 1);
+}
+.content::before{
+    content: 'NEW';
+    background: rgba(50, 50, 50, 1);
+    position: absolute;
+    padding: 11px 34px;
+    color: #fff;
+    transform: translateX(-30px);
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.content-mt::before{
+    content: '15%';
+}
+.content-ms::before{
+    content: '30%';
+}
+.content-ms__mt::before{
+    content: '10%';
+}
+.content-mt__ms::before{
+    content: '50%';
+}
+.content-card::before{
+    content: '20%';
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    padding: 12px 13px;
+}
+.button{
+    width: 133px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 20px 20px;
+    border: none;
+    font-weight: 400;
+    line-height: 20px;
+}
+.novosti img{
+    width: 636px;
+    height: 400px;
+    border-radius: 10px
+
+}
+.novosti-card__content h4{
+    max-width: 400px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    margin: 110px 0 0 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    line-height: 27px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.novosti-card__content p{
+    max-width: 390px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding: 24px 0 0 24px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.span span{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+.footer{
+    margin-top: 450px;
+    width: 100%;
+    min-height: 300px;
+    background: rgba(50, 50, 50, 1);
+}
+.footer-links__a h5{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 22px;
+    letter-spacing: 2.5px;
+}
+.footer-links__a a{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    line-height: 30px;
+}
+
+@media (max-width: 1400px){
+    .h-card{
+        transform: translateY(0);
+    }
+    .haiqin-card{
+        margin-top: 400px;
+    }
+}
+@media (max-width: 576px){
+    hr{
+        width: 00;
+    }
+}
